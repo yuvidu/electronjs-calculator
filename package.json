@@ -1,0 +1,38 @@
+{
+  "name": "elecron_calculator",
+  "version": "1.0.0",
+  "description": "\"calculator project with electron and react\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dev": "cross-env NODE_ENV=dev vite",
+    "build": "cross-env NODE_ENV=build vite build",
+    "preview": "cross-env NODE_ENV=build vite preview",
+    "electron:dev": "cross-env NODE_ENV=dev electron .",
+    "electron:build": "cross-env NODE_ENV=build electron .",
+    "electron:preview": "cross-env NODE_ENV=build electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvidu/electronjs-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuvidu/electronjs-calculator/issues"
+  },
+  "homepage": "https://github.com/yuvidu/electronjs-calculator#readme",
+  "dependencies": {
+    "electron": "^38.3.0",
+    "env": "^0.0.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "cross-env": "^10.1.0",
+    "vite": "^7.1.11"
+  }
+}
